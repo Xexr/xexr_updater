@@ -1,5 +1,5 @@
 # xexr_updater
-A python script to detect changes in your mullvad vpn connection and update and restart an ethereum execution and consensus client
+A python script to detect changes in your mullvad vpn connection and update and restart an ethereum execution and consensus client if your vpn exit ip changes
 
 Instructions for an example ubuntu node are shown below:
 
