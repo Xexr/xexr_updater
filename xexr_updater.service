@@ -1,0 +1,12 @@
+[Unit]
+Description=Xexr Updater Service
+After=network.target
+
+[Service]
+User=xexr_updater
+WorkingDirectory=/usr/local/bin
+ExecStart=/usr/bin/python3 -u /usr/local/bin/xexr_updater.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
