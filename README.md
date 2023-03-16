@@ -8,7 +8,7 @@ Instructions for an example ubuntu node are shown below:
 3. Add the user to a group, e.g. ethereum_users and allow that group to edit your EC / CC service files
 4. Add the user to your sudoers file, allowing it to run systemctl daemon-reload and the restart commands for your EC / CC
 5. Copy the script to your /etc/systemd/system folder, and edit the paths as appropriate
-6. Make sure the owner of the file is your newly created user
+6. Make sure the owner of the xexr_updater script is your newly created user
 7. Run "sudo systemctl start xexr_updater" to start the script
 8. Check it's running correctly with "journalctl -fu xexr_updater"
 9. Enable it at boot with "sudo systemctl enable xexr_updater"
